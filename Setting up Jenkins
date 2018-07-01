@@ -1,0 +1,5 @@
+1. Make sure Java installed on the server by running java -version if it does not install jdk8
+2. Now install Jenkins https://wiki.jenkins.io/display/JENKINS/Installing+Jenkins+on+Red+Hat+distributions
+3. Now make your way over to the jenkns gui http://192.168.47.132:8080/
+4. install Maven https://tecadmin.net/install-apache-maven-on-centos/
+5. 
