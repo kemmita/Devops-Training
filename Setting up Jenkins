@@ -1,8 +1,8 @@
-1. Make sure Java installed on the server by running java -version if it does not install jdk8
+1. Make sure Java installed on the server by running java -version if it does not install jdk8 https://tecadmin.net/install-java-8-on-centos-rhel-and-fedora/
 2. Now install Jenkins https://wiki.jenkins.io/display/JENKINS/Installing+Jenkins+on+Red+Hat+distributions
 3. Now make your way over to the jenkns gui http://192.168.47.132:8080/
 4. install Maven https://tecadmin.net/install-apache-maven-on-centos/
-5. install git https://www.digitalocean.com/community/tutorials/how-to-install-git-on-centos-7
+5. make sure that you install git plugin and then install git https://www.digitalocean.com/community/tutorials/how-to-install-git-on-centos-7
 6. install apache  https://www.liquidweb.com/kb/how-to-install-apache-on-centos-7/
 7. 
  
