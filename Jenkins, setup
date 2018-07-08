@@ -1,3 +1,4 @@
+0. ****READ FIRST**-----> Plz keep note of both Java, maven, apache direcotry paths, you will need them
 1. Make sure Java installed on the server by running java -version if it does not install jdk8 https://tecadmin.net/install-java-8-on-centos-rhel-and-fedora/
 2. Now install Jenkins https://wiki.jenkins.io/display/JENKINS/Installing+Jenkins+on+Red+Hat+distributions
 3. Now make your way over to the jenkns gui http://192.168.47.132:8080/
