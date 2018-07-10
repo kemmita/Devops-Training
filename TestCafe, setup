@@ -1,7 +1,22 @@
 setup mit CENTOS07
 
 
-# yum install -y gcc-c++ make
-# curl -sL https://rpm.nodesource.com/setup_6.x | sudo -E bash -
-yum install nodejs
-node -v 
+1. yum install -y gcc-c++ make
+2. curl -sL https://rpm.nodesource.com/setup_6.x | sudo -E bash -
+3. yum install nodejs
+4. node -v 
+5. npm -v
+
+6. create a new file called test.js
+fixture `My first fixture`
+    .page `https://devexpress.github.io/testcafe/example`;
+
+test('My first test', async t => {
+    await t
+        .typeText('#developer-name', 'Peter Parker')
+        .click('#submit-button');
+});
+
+7. If you are running on a min vm, you will need to add a browser, if you have a dvd or full install you will have firefox, so the command
+needed to get it up and running is 
+testcafe firefox test.js
