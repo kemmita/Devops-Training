@@ -1,0 +1,14 @@
+setup mit CENTOS07
+
+
+1. sudo yum install epel-release
+
+2. sudo yum install nodejs
+
+3. node --version
+
+4. sudo yum install npm
+
+5. npm install -g testcafe
+
+6. 
