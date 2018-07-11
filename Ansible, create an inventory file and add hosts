@@ -1,0 +1,35 @@
+**Here is how we would add host without creating an invetory file.**
+1. vim /etc/ansible/hosts
+2. After entering the file, scroll down to the bottom and add the host(s) like so 
+[linux01]
+192.168.0.53
+[linux02]
+192.168.4.77
+3. ansible --list-hosts all
+
+
+**Here we create an inventory file and add our hosts in here**
+1. go to /etc/ansible and create a file called dev
+2. Below is the hosts and host groups
+[loadbalancer]
+lb01
+
+[webserver]
+app01
+app02
+
+[database]
+db01
+
+[control]
+control ansible_connection=local
+
+controlM
+3. make sure you are in the ansible directorty when running this command
+ansible -i dev --list-hosts all
+4. we do not want to run -i dev all the time so lets modify the ansible.cfg file make sure lines 10 and 11 look like this below
+[defaults]
+inventory = ./dev
+
+
+
