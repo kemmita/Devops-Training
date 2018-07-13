@@ -27,7 +27,8 @@ control ansible_connection=local
 controlM
 3. make sure you are in the ansible directorty when running this command
 ansible -i dev --list-hosts all
-4. we do not want to run -i dev all the time so lets modify the ansible.cfg file make sure lines 10 and 11 look like this below
+4. we do not want to run -i dev all the time so lets modify the ansible.cfg file make sure lines 10 and 11 look like this below soemtimes
+this file is not yet created, if it is not yet created, create a ansible.cfg file in /etc/ansible
 [defaults]
 inventory = ./dev
 
