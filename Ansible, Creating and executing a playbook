@@ -1,0 +1,12 @@
+1. inside of our dev file we have a host that is listed wihtin our database group, we want to add mysql to this host through ansible using a playbook
+2. in our main ansible directory "/etc/ansible" create a new playbook called database.yml
+//the syntax below is verry important and "---" is not a mistake
+---
+- hosts: database                     //------------> any host wihtin our db group will have mysql downloaded
+  become: true
+  tasks:
+     - name: install mysql-server
+       yum: name=mariadb-server state=present update_cache=yes     
+
+
+3. to execute play book run "ansible-playbook database.yml"
