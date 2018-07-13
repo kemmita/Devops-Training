@@ -1,0 +1,10 @@
+1. make sure we are in the main Ansible directory "/etc/ansible" 
+2. make a new directory called playbooks, and then cd into playbooks
+3. create a new yml file, this will be our playbook, let us name it hostname.yml
+4. go into the file and edit the file as below, the syntax is verry important and is specific to the yml language
+---
+        - hosts: all
+          tasks:
+           - command: hostname
+
+5. go back to our main Ansible direcotry "/etc/ansible" and run command "ansible-playbook playbooks/hostname.yml"
