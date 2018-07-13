@@ -1,0 +1,12 @@
+1. in your main Ansible directory create a new playbook example.yml 
+---
+        - hosts: webserver   
+          become: true
+          tasks:
+            - name: install apache
+              yum: name={{item}} state=present update_cache=yes    //----> using "{{item}}" ansible will loop through the items below and all 4 packages will be installed on the specified hosts.
+              with_items:
+                  - httpd
+                  - mod_wsgi
+                  - python-pip
+                  - python-virtualenv
