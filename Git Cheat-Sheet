@@ -1,0 +1,5 @@
+1. When pushing to some repos, you may need to genereate ssh keys if you experience error "git@github.com: Permission denied (publickey)."
+2. go to your terminal and run ssh-keygen
+3. go to the directory fpr where the key is being hosted on your machine, copy this to your clipboard.
+4. go to your github and select settings and select ssh and gpk keys.
+5. add a new key and give it a name. Push to the repo and you are good to go.
