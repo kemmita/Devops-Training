@@ -1,0 +1,2 @@
+1. If you have modified a file, but wish to completley erase all changes, run command git checkout -- treens.html
+Your file will now be set back to what it was originaly.
