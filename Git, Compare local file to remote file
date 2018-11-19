@@ -1,0 +1,2 @@
+1. If you would like to see the current state of a file located in your repo in comparrision to the changes you have made on your local
+machine, then run command <git diff example.css>
