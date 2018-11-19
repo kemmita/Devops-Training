@@ -1,0 +1,2 @@
+1. Once we have finished working on dev branch and wish to merge the completed work into the master branch, we will run command
+<git merge dev>.
