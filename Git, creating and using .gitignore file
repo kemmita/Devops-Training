@@ -1,0 +1,2 @@
+1. We will need to ignore some files at times and in order to do this, we must create a file in our directory titiled .gitignore.
+2. If we we have a file we wish to ignore, we must open the file we created above, ".gitignore" and add the name of the file. 
