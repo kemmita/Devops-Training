@@ -1,0 +1,2 @@
+1. If we want to create a alias for a git command run <git config --global alias.hist "log --all --graph --decorate --oneline">
+You can now run git hist and git log --all --graph --decorate --oneline will be executed.
