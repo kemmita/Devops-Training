@@ -1,4 +1,0 @@
-1. go to your jobs dashbord  and select configure.
-2. fill out the two nessecary git fields. 
-3. Set the Build Triggers to Poll SCM and set it cron time, for example * * * * * is one minute and so the poll will run every one minute.
-4. if a change is made, you can check for that by visiting the jobs dashboard and selecting changes. 
