@@ -1,3 +1,0 @@
-1. To rename a file use the linux command "mv"
-mv humans.txt huumans.html
-2. You will then need to run git add . in order for this name change to take affect.
