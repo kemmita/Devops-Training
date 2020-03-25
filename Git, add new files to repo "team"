@@ -1,6 +1,0 @@
-1. Once you have created a new file or altered an existing, make sure to run commands
-git status //this command will let you know if anything has changed
-git add . //this command will add any new changes to the repo.
-git commit -m "example message" // commit to local repo
-git pull --rebase origin master //pull from non-local repo, this is to ensure that you are not pushing to a repo that has made chnages
-git push origin master //this will push the new file(s) to the repo.
