@@ -1,5 +1,0 @@
-1. Inside of gitbash, run commands 
-git config --global user.name "example.name"
-git config --global user.email "example@yahoo.com"
-
-2. The run command git config --global --list and you should see the credentials you entered.
