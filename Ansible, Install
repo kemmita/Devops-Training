@@ -1,9 +1,0 @@
-******CENTOS*******
-
-1.  yum install epel-release
-2.  sudo yum -y update
-3. sudo yum -y install ansible
-4.  ansible --version
-
-
-
