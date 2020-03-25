@@ -1,6 +1,0 @@
-1. We will want to fork instead of cloning when working with teams. Forking will allow you to make changes and the open a pull request for
-when you feel a change is ready to be implmemented. Cloning is done when you widh to make a copy of the  website, but do not plan on
-opening a pull request.
-2. To fork on github, simple go to the repos main page and look for the fork keyword or sign. After you have forked the repo, you will want
-to clone it, so you can make changes locally.
-3. You will typically need to cd into the file you cloned into your local machine, run ls to see what you need to cd into.
