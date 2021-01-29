@@ -1,3 +1,7 @@
+0. List containers
+```
+docker ps -a
+```
 1. Run the command below to remove a docker container. Without powershell, we can only delete one at a time.
 ```
 docker rm containerid
