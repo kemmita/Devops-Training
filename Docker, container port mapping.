@@ -1,0 +1,23 @@
+1. Below we create our docker file.
+```
+FROM tiangolo/uvicorn-gunicorn-fastapi:python3.7
+# Expose port 80
+EXPOSE 80
+
+# First argh is  path where our app lives, relitive to the dockerfile. Second arg is where our code will be stored in the container.
+COPY ./simple /app
+
+# Below we specify port 80 again in our command.
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "80"]
+```
+
+2. Build image 
+```
+docker build .
+```
+
+3. Create new container using the id from the output above.
+```
+# Below we map the ports.
+docker run -p 80:80 caefda640163
+```
