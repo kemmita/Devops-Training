@@ -1,3 +1,4 @@
+1. Compose file
 ```
 # Version of dokcer-compose
 version: '3'
@@ -12,4 +13,8 @@ services:
     build: .  
     ports:
       - "80:80"
+```
+2. Command to run the compose file
+```
+docker-compose up --build
 ```
