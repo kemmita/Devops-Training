@@ -1,13 +1,19 @@
 1. Creat docker file like so
 ```
-# Specify base image
-FROM alpine
+# Define base image
+FROM node
 
-# Download dependincies
-RUN apk add --update redis
+# copy all files and dirs in path of Dockerfile on local machine to the container in a dir specified as app
+COPY . /app
 
-# Run command
-CMD ["redis-server"]
+# Specify the dir that all commands below should be executed in
+WORKDIR /app
+
+# Run the necessary commands in
+RUN npm install
+
+# Run command after container is created
+CMD ["node", "server.js"]
 ```
 
 ##RUN COMMANDS ON TERMINAL
@@ -18,5 +24,5 @@ docker build .
 
 3. Now create a new container using the newly created image
 ```
-docker run <image id from above output>
+docker run -p 80:80 <image id from above output> 
 ```
