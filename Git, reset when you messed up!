@@ -1,4 +1,0 @@
-1. If you wish to reset back to a commit where things working, you can do so by running these commands.
-2. git log --oneline  // copy the commit hash you wish to revert to.
-3. git reset --hard e2fea22<--example    // This will reset your code back to this stage
-4. git pull origin master
