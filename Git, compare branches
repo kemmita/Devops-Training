@@ -1,3 +1,0 @@
-1. If we want to compare our dev branch to our master brnach and we are currently in the master branch, then we must run command 
-<git diff master dev> 
-since we are in master we must list that first before the branch we wish to compare against.
